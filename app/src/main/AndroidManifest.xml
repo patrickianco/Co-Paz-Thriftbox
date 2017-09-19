@@ -20,7 +20,11 @@
             android:name=".Register"
             android:exported="true" />
         <activity android:name=".sample" />
-        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".Dashboard" />
+        <activity
+            android:name=".Navbar"
+            android:label="@string/title_activity_navbar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

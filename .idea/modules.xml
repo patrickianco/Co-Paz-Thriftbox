@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Co-Paz-Thriftbox.iml" filepath="$PROJECT_DIR$/Co-Paz-Thriftbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphView/GraphView.iml" filepath="$PROJECT_DIR$/GraphView/GraphView.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thriftbox.iml" filepath="$PROJECT_DIR$/Thriftbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
