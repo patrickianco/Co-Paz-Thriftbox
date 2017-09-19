@@ -6,8 +6,29 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_navbar">Navbar</string>
+    <string name="title_activity_navbar">Dashboard</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="recordsDate">
+        <item>9/20/17 10:20 PM</item>
+        <item>9/20/17 2:20 PM</item>
+        <item>9/19/17 11:20 AM</item>
+        <item>9/19/17 7:00 AM</item>
+        <item>9/18/17 4:20 PM</item>
+    </string-array>
+
+    <string-array name="recordsCategory">
+        <item>Entertainment</item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Grocery</item>
+    </string-array>
+
+    <string-array name="recordsValue">
+        <item>PHP 200.00</item>
+        <item>PHP 150.00</item>
+        <item>PHP 180.00</item>
+        <item>PHP 30.00</item>
+        <item>PHP 500.00</item>
+    </string-array>
 </resources>

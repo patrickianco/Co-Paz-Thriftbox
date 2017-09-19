@@ -108,23 +108,25 @@ public class Navbar extends AppCompatActivity
             getSupportActionBar().setTitle("Reports");
             tx.replace(R.id.fragment_container, new ReportsFragment());
             tx.commit();
-        } else if (id == R.id.nav_categories) {
-            FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
-            getSupportActionBar().setTitle("Categories");
-            tx.replace(R.id.fragment_container, new CategoriesFragment());
-            tx.commit();
-        } else if (id == R.id.nav_notifications) {
-            FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
-            getSupportActionBar().setTitle("Notifications");
-            tx.replace(R.id.fragment_container, new NotificationsFragment());
-            tx.commit();
-        } else if (id == R.id.nav_settings) {
-            SettingsFragment settingsFragment = new SettingsFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, settingsFragment);
-            fragmentTransaction.commit();
-        } else if (id == R.id.nav_logout) {
+        }
+//        } else if (id == R.id.nav_categories) {
+//            FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+//            getSupportActionBar().setTitle("Categories");
+//            tx.replace(R.id.fragment_container, new CategoriesFragment());
+//            tx.commit();
+//        } else if (id == R.id.nav_notifications) {
+//            FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+//            getSupportActionBar().setTitle("Notifications");
+//            tx.replace(R.id.fragment_container, new NotificationsFragment());
+//            tx.commit();
+//        } else if (id == R.id.nav_about) {
+//            SettingsFragment settingsFragment = new SettingsFragment();
+//            android.support.v4.app.FragmentTransaction fragmentTransaction =
+//                    getSupportFragmentManager().beginTransaction();
+//            fragmentTransaction.replace(R.id.fragment_container, settingsFragment);
+//            fragmentTransaction.commit();
+//        }
+          else if (id == R.id.nav_logout) {
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);
         }
