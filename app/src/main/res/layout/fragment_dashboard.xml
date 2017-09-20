@@ -36,7 +36,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:text="La pa mailagay"
+                        android:text="Balance"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -190,7 +190,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:text="Logout"
+                        android:text="Expenses"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
