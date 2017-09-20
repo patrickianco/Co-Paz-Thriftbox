@@ -119,13 +119,14 @@ public class Navbar extends AppCompatActivity
 //            getSupportActionBar().setTitle("Notifications");
 //            tx.replace(R.id.fragment_container, new NotificationsFragment());
 //            tx.commit();
-//        } else if (id == R.id.nav_about) {
-//            SettingsFragment settingsFragment = new SettingsFragment();
-//            android.support.v4.app.FragmentTransaction fragmentTransaction =
-//                    getSupportFragmentManager().beginTransaction();
-//            fragmentTransaction.replace(R.id.fragment_container, settingsFragment);
-//            fragmentTransaction.commit();
 //        }
+        else if (id == R.id.nav_about) {
+            AboutFragment settingsFragment = new AboutFragment();
+            FragmentTransaction fragmentTransaction =
+                    getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container, settingsFragment);
+            fragmentTransaction.commit();
+        }
           else if (id == R.id.nav_logout) {
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);
